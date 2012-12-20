@@ -7,8 +7,8 @@
 <title>数据库作业提交系统</title>
 <link rel="icon" href="images/icon.png" type="image/x-icon" /> 
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
-<link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
   
 <body class="home">
@@ -29,7 +29,7 @@
 
 	</ul>            
 
-	<div id="myTabContent" class="tab-content">
+	<div id="myTabContent" class="tab-content insetPane">
 	
 					<div id="postNotice" >
 				<form action="servlet/CourseAdd" method="post">
@@ -74,7 +74,7 @@
 	
 
 	<div id="footer">
-		© Copyright 2012 by the Websoft Research Group, NJU. All rights reserved.
+		© Copyright 2012 by the <a href="http://ws.nju.edu.cn">Websoft Research Group</a>, NJU. All rights reserved.
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>

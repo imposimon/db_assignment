@@ -14,7 +14,7 @@
 <body>
 <%request.setCharacterEncoding("utf-8"); %>	
 
-<div class="header"> 
+<div class="header insetPane"> 
   		<div id=left>
     		数据库作业提交系统
 		</div>
@@ -31,9 +31,9 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container insetPane">
 		<div id=left>
-			<img src="images/index1.jpg" width="488" height="274" />
+			<img src="images/index.jpg" class="img-rounded" width="488" height="274" />
 		</div>
 		<div id=right>
   			<p style="font-size: 20pt;">注册</p>
@@ -93,7 +93,7 @@
 		</div>
 	</div>
 	<div id="footer">
-		© Copyright 2012 by the Websoft Research Group, NJU. All rights reserved.
+		© Copyright 2012 by the <a href="http://ws.nju.edu.cn">Websoft Research Group</a>, NJU. All rights reserved.
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
